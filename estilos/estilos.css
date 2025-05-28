@@ -1,0 +1,200 @@
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*ESTILOS GENERALES*/
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-family: "Cinzel", serif;
+    font-size: 1.5rem;
+}
+h3{
+    font-family: "Cinzel", serif;
+    font-size: 1.5rem;
+}
+/*BARRA DE NAVEGACION*/
+.barra-navegacion nav{
+    text-align: center;
+    background-color: #eceff1;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+}
+.barra-navegacion ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.barra-navegacion a{
+    text-decoration: none;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #006400
+}
+
+
+/*TITULO PRINCIPAL*/
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;       
+    text-align: center;
+
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    color: white;
+
+    background-image: url(../img/tafi-del-valle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    position: relative;
+}
+
+.titulo p {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+/*MAIN*/
+.contenido{
+    text-align: center;
+    margin: 3rem;
+}
+.contenido h2{
+    font-size: 1.7rem;
+}
+/*TARJETAS/CARDS*/
+.card{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.padre-contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #4b0082; /* púrpura */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+
+
+
+/* ESTILOS DEL HTML CABALGATA*/
+.contenido-cabalgata{
+    text-align: center;
+}
+
+/*ESTILOS ACTIVIDADES*/
+.caballo{
+    text-align: center;
+}
+.Paseos-senderos{
+    text-align: center;
+}
+.ciclimos{
+    text-align: center;
+}
+.Kayak{
+    text-align: center;
+}
+.Pesca{
+    text-align: center;
+}
+.ferias{
+    text-align: center;
+}
+
+
+/*CONTACTO/FORMULARIO*/
+
+.formulario {
+    text-align: center;
+}
+
+form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea,
+form input[type="button"] {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+form input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+
