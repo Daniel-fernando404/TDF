@@ -21,26 +21,6 @@ h3{
     font-family: "Cinzel", serif;
     font-size: 1.5rem;
 }
-/*BARRA DE NAVEGACION*/
-.barra-navegacion nav{
-    text-align: center;
-    background-color: #eceff1;
-    padding: 2rem 4rem;
-    display: flex;
-    align-items: center;
-}
-.barra-navegacion ul{
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-}
-.barra-navegacion a{
-    text-decoration: none;
-    font-size: 1.5rem; 
-    font-weight: bold;
-    color: #006400
-}
-
 
 /*TITULO PRINCIPAL*/
 .titulo {
@@ -74,6 +54,10 @@ h3{
 }
 .contenido h2{
     font-size: 1.7rem;
+    margin-top: 7rem;
+}
+.contenido p{
+    margin-bottom: 7rem;
 }
 /*TARJETAS/CARDS*/
 .card{
