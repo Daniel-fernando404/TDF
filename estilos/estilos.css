@@ -115,55 +115,10 @@ footer img{
     width: 200px;
 }
 
-
 /*CONTACTO/FORMULARIO*/
 
-.formulario {
-    text-align: center;
-}
 
-form {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: white;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #aaa;
-    border: 1px solid #ccc;
-    text-align: left;
-}
 
-form label {
-    font-weight: bold;
-}
-
-form input[type="text"],
-form input[type="email"],
-form select,
-form textarea,
-form input[type="button"] {
-    width: 90%;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-family: inherit;
-}
-
-form textarea {
-    height: 100px;
-}
-
-form input[type="button"] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    font-size: 1rem;
-}
-
-form input[type="button"]:hover {
-    background-color: #0056b3;
-}
 /*ESTILOS DE ACTIVIDADES*/
 .padre-contenedor-actividades{
     display: flex;
