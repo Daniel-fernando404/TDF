@@ -73,7 +73,7 @@ h3{
 .padre-contenedor{
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 2rem;
     margin: 2rem;
     flex-wrap: wrap;
 }
@@ -101,33 +101,18 @@ h3{
     font-size: 1.3rem;
     color: #333;
 }
-
-
-
-
-/* ESTILOS DEL HTML CABALGATA*/
-.contenido-cabalgata{
-    text-align: center;
+/*ESTILOS FOOTER*/
+footer{
+    background-color: #000000;
 }
-
-/*ESTILOS ACTIVIDADES*/
-.caballo{
-    text-align: center;
+footer p{
+    color: #fff;
+    font-family:"Cinzel", serif;
+    padding: 20px;
 }
-.Paseos-senderos{
-    text-align: center;
-}
-.ciclimos{
-    text-align: center;
-}
-.Kayak{
-    text-align: center;
-}
-.Pesca{
-    text-align: center;
-}
-.ferias{
-    text-align: center;
+footer img{
+    height: auto;
+    width: 200px;
 }
 
 
@@ -179,6 +164,41 @@ form input[type="button"] {
 form input[type="button"]:hover {
     background-color: #0056b3;
 }
+/*ESTILOS DE ACTIVIDADES*/
+.padre-contenedor-actividades{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 2rem;
+    flex-wrap: wrap;
 
+}
+/*ESTILOS DE IMAGENES DE ACTIVIDADES*/
+.img-actividades{
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.titulo-actividades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;       
+    text-align: center;
 
+    font-family: "Cinzel", serif;
+    color: white;
+
+    background-image: url(../img/actividades2.0.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.titulo-actividades p{
+    margin-top: 11rem;
+}
 
