@@ -157,3 +157,20 @@ footer img{
     margin-top: 11rem;
 }
 
+@media (min-width: 576px){
+    .navbar-nav .nav-link{
+        color: #000000;
+    }
+    footer{
+        text-align: center;
+    }
+    .titulo-actividades h1{
+        margin-bottom: 5rem
+    };
+}
+@media (min-width: 768px){
+    .navbar-nav .nav-link{
+        color: #000000;
+    }
+
+}
