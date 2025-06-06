@@ -1,176 +1,185 @@
+@charset "UTF-8";
 /*RESET CSS*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /*ESTILOS GENERALES*/
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-h1{
-    font-family: "Cinzel", serif;
-    font-size: 3rem;
-    text-align: center;
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  text-align: center;
 }
-h2{
-    font-family: "Cinzel", serif;
-    font-size: 1.5rem;
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
 }
-h3{
-    font-family: "Cinzel", serif;
-    font-size: 1.5rem;
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
 }
 
 /*TITULO PRINCIPAL*/
 .titulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;       
-    text-align: center;
-
-    font-size: 3rem;
-    font-family: "Cinzel", serif;
-    color: white;
-
-    background-image: url(../img/tafi-del-valle.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Cinzel", serif;
+  color: white;
+  background-image: url(../img/tafi-del-valle.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+  position: relative;
 }
 
 .titulo p {
-    font-size: 1.5rem;
-    margin: 0.5rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 
 /*MAIN*/
-.contenido{
-    text-align: center;
-    margin: 3rem;
+.contenido {
+  text-align: center;
+  margin: 3rem;
 }
-.contenido h2{
-    font-size: 1.7rem;
-    margin-top: 7rem;
+
+.contenido h2 {
+  font-size: 1.7rem;
+  margin-top: 7rem;
 }
-.contenido p{
-    margin-bottom: 7rem;
+
+.contenido p {
+  margin-bottom: 7rem;
 }
+
 /*TARJETAS/CARDS*/
-.card{
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 2rem;
-    width: 250px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.card {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.padre-contenedor{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin: 2rem;
-    flex-wrap: wrap;
+
+.padre-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
 }
+
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 1rem;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
 }
 
 .card a {
-    font-weight: bold;
-    font-size: 1.3rem;
-    color: #4b0082; /* púrpura */
-    text-decoration: none;
-    display: block;
-    margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #4b0082; /* púrpura */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .card p {
-    font-size: 1.3rem;
-    color: #333;
+  font-size: 1.3rem;
+  color: #333;
 }
+
 /*ESTILOS FOOTER*/
-footer{
-    background-color: #000000;
+footer {
+  background-color: #000000;
 }
-footer p{
-    color: #fff;
-    font-family:"Cinzel", serif;
-    padding: 20px;
+
+footer p {
+  color: #fff;
+  font-family: "Cinzel", serif;
+  padding: 20px;
 }
-footer img{
-    height: auto;
-    width: 200px;
+
+footer img {
+  height: auto;
+  width: 200px;
 }
 
 /*CONTACTO/FORMULARIO*/
-
-
-
 /*ESTILOS DE ACTIVIDADES*/
-.padre-contenedor-actividades{
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    margin: 2rem;
-    flex-wrap: wrap;
-
+.padre-contenedor-actividades {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem;
+  flex-wrap: wrap;
 }
+
 /*ESTILOS DE IMAGENES DE ACTIVIDADES*/
-.img-actividades{
-    height: auto;
-    width: 200px;
-    display: block;
-    margin: 0 auto 1rem auto;
+.img-actividades {
+  height: auto;
+  width: 200px;
+  display: block;
+  margin: 0 auto 1rem auto;
 }
-.titulo-actividades{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;       
+
+.titulo-actividades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  color: white;
+  background-image: url(../img/actividades2.0.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.titulo-actividades p {
+  margin-top: 11rem;
+}
+
+@media (min-width: 576px) {
+  .navbar-nav .nav-link {
+    color: #000000;
+  }
+  footer {
     text-align: center;
-
-    font-family: "Cinzel", serif;
-    color: white;
-
-    background-image: url(../img/actividades2.0.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 35rem;
-    position: relative;
+  }
+  .titulo-actividades h1 {
     margin-bottom: 5rem;
+  }
 }
-.titulo-actividades p{
-    margin-top: 11rem;
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    color: #000000;
+  }
 }
 
-@media (min-width: 576px){
-    .navbar-nav .nav-link{
-        color: #000000;
-    }
-    footer{
-        text-align: center;
-    }
-    .titulo-actividades h1{
-        margin-bottom: 5rem
-    };
-}
-@media (min-width: 768px){
-    .navbar-nav .nav-link{
-        color: #000000;
-    }
-
-}
+/*# sourceMappingURL=estilos.css.map */
