@@ -183,3 +183,30 @@ footer img {
 }
 
 /*# sourceMappingURL=estilos.css.map */
+/*ESTILOS DE DESPLEGAR INFORMACION*/
+/* Oculta el checkbox */
+.toggle-info {
+  display: none;
+}
+
+/* Oculta el contenido extra por defecto */
+.contenido-extra {
+  display: none;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+/* Cuando el checkbox está activo, muestra el contenido */
+.toggle-info:checked ~ .contenido-extra {
+  display: block;
+}
+
+/* Cambia el texto del botón automáticamente */
+.toggle-label::after {
+  content: "Más info →";
+}
+
+.toggle-info:checked ~ .toggle-label::after {
+  content: "Ver menos ↑";
+}
