@@ -210,3 +210,14 @@ footer img {
 .toggle-info:checked ~ .toggle-label::after {
   content: "Ver menos ↑";
 }
+/*CARRUCEL*/
+.carrucel{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* recorta bordes de imágenes si se salen */
+}
