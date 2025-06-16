@@ -221,3 +221,26 @@ footer img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden; /* recorta bordes de imágenes si se salen */
 }
+/*Contenido extra index*/
+.cotenido-extra{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5rem;
+}
+.card2{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0,0.1);
+  text-align: center;
+  background-color: white;
+}
+.card-img{
+  padding: 1rem;
+  font-family: serif;
+  font-size: 1rem;
+}
