@@ -1,0 +1,13 @@
+@use './utilities/mixins';
+@use './utilities/variables';
+@media (min-width: 576px) {
+  .navbar-nav .nav-link {
+    color: variables.$color-footer;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    color: variables.$color-footer;
+  }
+}

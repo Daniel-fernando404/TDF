@@ -1,0 +1,17 @@
+@use '../utilities/mixins';
+@use '../utilities/variables';
+footer {
+  background-color: variables.$color-footer;
+  text-align: center;
+
+  p {
+    color: variables.$color-footer-texto;
+    font-family: variables.$fuente-principal;
+    padding: 20px;
+  }
+
+  img {
+    height: auto;
+    width: 200px;
+  }
+}

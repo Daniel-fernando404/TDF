@@ -1,0 +1,26 @@
+
+@use '../utilities/mixins';
+@use '../utilities/variables';
+
+.toggle-info {
+  display: none;
+}
+
+.contenido-extra {
+  display: none;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: variables.$color-texto;
+}
+
+.toggle-info:checked ~ .contenido-extra {
+  display: block;
+}
+
+.toggle-label::after {
+  content: "Más info →";
+}
+
+.toggle-info:checked ~ .toggle-label::after {
+  content: "Ver menos ↑";
+}

@@ -1,0 +1,36 @@
+@use '../utilities/mixins';
+@use '../utilities/variables';
+
+
+.titulo, .titulo-actividades {
+   @include mixins.centrado-flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: variables.$fuente-principal;
+  color: variables.$color-footer-texto;
+  height: 35rem;
+  position: relative;
+  font-size: 3rem;
+
+  p {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+}
+
+.titulo {
+  @include mixins.background-cover('../img/tafi-del-valle.png');
+}
+
+.titulo-actividades {
+  @include mixins.background-cover('../img/actividades2.0.png');
+  margin-bottom: 5rem;
+
+  p {
+    margin-top: 11rem;
+  }
+
+  h1 {
+    margin-bottom: 5rem;
+  }
+}

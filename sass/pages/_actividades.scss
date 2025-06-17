@@ -1,0 +1,28 @@
+.padre-contenedor,
+.padre-contenedor-actividades {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.padre-contenedor-actividades {
+  gap: 5rem;
+}
+
+.img-actividades {
+  height: auto;
+  width: 200px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.cotenido-extra {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 5rem auto 0 auto;
+}

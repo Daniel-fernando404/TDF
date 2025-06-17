@@ -1,0 +1,54 @@
+
+@use '../utilities/mixins';
+@use '../utilities/variables';
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: variables.$color-principal;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    color:variables.$color-texto;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.card2 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: white;
+
+  .card-img {
+    padding: 1rem;
+    font-family: serif;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+@mixin centrado-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin background-cover($img-url) {
+  background-image: url($img-url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
