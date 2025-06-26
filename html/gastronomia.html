@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,43 @@
     <link rel="stylesheet" href="../estilos/estilos.css">
     <!--FUENTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
         <!--BARRA DE NAVEGACION-->
-        <section class="barra-navegacion">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Actividades</a>
-                    </li>
-                    <li>
-                        <a href="#">Eventos</a>
-                    </li>
-                    <li>
-                        <a href="#">Cultura e Historia</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Tafi Del Valle</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./actividades.html">Actividades</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="./html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!--IMAGEN PRINCIPAL-->
         <section class="imagen-principal">
             <img src="" alt="">
@@ -42,32 +53,97 @@
     </header>
     <main>
         <!--TITULO PRINCIPAL-->
-        <section>
+        <section class="tituloGastronomia">
             <h1>
                 Comidas regionales
             </h1>
         </section>
         <!--CONTENT PRINCIPAL-->
-        <h2>
+        <section class="contenido">
+            <h2>
             Desgusta platos regionales
         </h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil temporibus voluptas voluptatibus inventore labore molestiae, quae itaque maiores neque dolore consectetur! Recusandae dolor non earum laboriosam ipsum aliquam, quasi ullam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil temporibus voluptas voluptatibus inventore
+            labore molestiae, quae itaque maiores neque dolore consectetur! Recusandae dolor non earum laboriosam ipsum
+            aliquam, quasi ullam.
         </p>
-        <h3>
-            Platos recomendados
-        </h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        </section>
+        
+        <div class="padre-contenedor-actividades">
+            <section class="card">
+                <img class="img-actividades" src="../img/humita.jpg" alt="">
+                <h3>
+                    Humitas
+                </h3>
+                <p>
+                   Preparación cremosa de maíz rallado, queso y condimentos, cocida dentro de hojas de maíz (chala) o servida al plato. <br> Puede ser Dulce o salada
+                </p>
+                <button type="button" class="btn btn-outline-dark">Mas info →</button>
+            </section>
+            <section class="card">
+                <img class="img-actividades" src="../img/tamales.jpg" alt="">
+                <h3>
+                    Tamales
+                </h3>
+                <p>
+                    Masa de maíz rellena con carne condimentada (a veces con charqui), envuelta en chala de maíz y hervida. <br> Es un plato tradicional y festivo.
+                </p>
+                <button type="button" class="btn btn-outline-dark">Mas info →</button>
+            </section>
+            <section class="card">
+                <img class="img-actividades" src="../img/locro.webp" alt="">
+                <h3>
+                    Locro
+                </h3>
+                <p>
+                    Explora rutas desafiantes y vistas impresionates para ciclitas de cualquier nivel
+                </p>
+                <button type="button" class="btn btn-outline-dark">Mas info →</button>
+            </section>
+            <section class="card">
+                <img class="img-actividades" src="../img/empanadas.avif" alt="">
+                <h3>
+                   Empanadas Tucumanas
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ea nemo fugit quod nisi blanditiis
+                    soluta tenetur! Neque, incidunt earum?
+                </p>
+                <button type="button" class="btn btn-outline-dark">Mas info →</button>
+            </section>
+            <section class="card">
+                <img class="img-actividades" src="../img/charqui.jpg" alt="">
+                <h3>
+                    Charqui
+                </h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim expedita incidunt, dicta neque, ad
+                    facere, voluptatum eos adipisci assumenda nobis ea aliquam quo a dignissimos distinctio quod
+                    pariatur sapiente eaque!
+                </p>
+                <button type="button" class="btn btn-outline-dark">Mas info →</button>
+            </section>
+            <section class="card">
+                <img class="img-actividades" src="../img/quesos.jpg" alt="">
+                <h3>
+                    Quesos artesanales
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo labore, ex nobis dolorem
+                    unde quae quod harum numquam pariatur.
+                </p>
+                <button type="button" class="btn btn-outline-dark">Mas info →</button>
+            </section>
+        </div>
     </main>
 
     <footer>
         <!--RELLENAR-->
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
